@@ -1,0 +1,63 @@
+The below shows an example return from the get_forecast() api function:
+
+Array (
+	[date] => Array (
+		[epoc] => 1305482400
+		[iso] => 2011-05-16T04:00:00Z
+	)
+	[temperature] => Array (
+		[id] => TTT
+		[unit] => celcius
+		[value] => 4.4
+	)
+	[windDirection] => Array (
+		[id] => dd
+		[deg] => 305.6
+		[name] => NW
+	)
+	[windSpeed] => Array (
+		[id] => ff
+		[mps] => 1.6
+		[beaufort] => 1
+		[name] => Flau vind
+	)
+	[humidity] => Array (
+		[value] => 83.4
+		[unit] => percent
+	)
+	[pressure] => Array (
+		[id] => pr
+		[unit] => hPa
+		[value] => 1008.2
+	)
+	[cloudiness] => Array (
+		[id] => NN
+		[percent] => 5.0
+	)
+	[fog] => Array (
+		[id] => FOG
+		[percent] => 0.0
+	)
+	[lowClouds] => Array (
+		[id] => LOW
+		[percent] => 5.0
+	)
+	[mediumClouds] => Array (
+		[id] => MEDIUM
+		[percent] => 0.0
+	)
+	[highClouds] => Array (
+		[id] => HIGH
+		[percent] => 0.0
+	)
+	[precipitation] => Array (
+		[unit] => mm
+		[value] => 0.0
+		[minvalue] => 0.0
+		[maxvalue] => 0.0
+	)
+	[symbol] => Array (
+		[id] => PARTLYCLOUD
+		[number] => 3
+	)
+)
