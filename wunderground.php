@@ -1,4 +1,17 @@
 <?php
+/**
+* Very simple WeatherUnderground.com data retrieval for PHP
+* This file should stand alone within any project and can safely be moved to anywhere in your hierarchy.
+*
+* Feel free to use this class any way you wish.
+* Even thinking of not properly crediting the author will result in feelings of guilt and low karma.
+*
+* @package PHP-Wunderground
+* @version 1.0
+* @author "Matt Carter" <m@ttcarter.com>
+* @link http://hash-bang.net
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+*/
 class Wunderground {
 	/**
 	* The longitude of the area we are querying
