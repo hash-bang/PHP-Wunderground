@@ -103,7 +103,9 @@ class Wunderground {
 		$from = date('Y-m-d', $epoc) . 'T' . date('H', $epoc) .':00:00Z';
 
 		$info = array('date' => array('epoc' => $epoc, 'iso' => $from));
-		foreach ($this->forecast_xml->xpath("//time[@from='$from']/location") as $forecast) {
+		if (!$casts = $this->forecast_xml->xpath("//time[@from='$from']/location"))
+			return FALSE;
+		foreach ($casts as $forecast) {
 			if ($forecast->xpath("//temperature")) {
 				foreach ((array) $forecast as $key => $branch) {
 					if ($key == '@attributes') continue;
