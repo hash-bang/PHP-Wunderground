@@ -1,5 +1,13 @@
 An exceptionally simple Weather Underground PHP class for simple data retrieval.
 
+
+Installation
+============
+Download this GIT repository and copy into your application directory.
+
+Alternatively, install with [Composer](http://getcomposer.org).
+
+
 Examples
 ========
 The following will retrieve a detailed 2 day forecast in the form of an array.

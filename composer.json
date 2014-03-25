@@ -1,0 +1,27 @@
+{
+	"name": "hashbang/wunderground",
+	"description": "An simple Weather Underground PHP API",
+	"keywords": ["weather"],
+	"homepage": "https://github.com/hash-bang/PHP-Wunderground",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Matt Carter",
+			"email": "m@ttcarter.com",
+			"homepage": "https://github.com/hash-bang"
+		}
+	],
+	"require": {
+		"php": ">=5.0.0"
+	},
+	"require-dev": {
+	},
+	"suggest": {
+	},
+	"config": {
+	},
+	"autoload": {
+		"files": ["wunderground.php"]
+	}
+}
